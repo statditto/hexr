@@ -1,6 +1,6 @@
 Package: hexr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Hex boardgame with R
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -9,8 +9,13 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Hex boardgame with R.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    ggplot2
